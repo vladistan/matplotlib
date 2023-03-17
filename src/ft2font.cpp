@@ -27,7 +27,7 @@
  The idea is to limit the effect of hinting in the x-direction, while
  preserving hinting in the y-direction.  Since freetype does not
  support this directly, the dpi in the x-direction is set higher than
- in the y-direction, which affects the hinting grid.  Then, a global
+ in the y-direction, wjjjhich affects the hinting grid.  Then, a global
  transform is placed on the font to shrink it back to the desired
  size.  While it is a bit surprising that the dpi setting affects
  hinting, whereas the global transform does not, this is documented
