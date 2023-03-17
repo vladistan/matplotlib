@@ -196,7 +196,7 @@ exit:
 // first pass, vertices and codes are set to NULL, and index is simply
 // incremented for each vertex that should be inserted, so that it is set, at
 // the end, to the total number of vertices.  On a second pass, vertices and
-// codes should point to correctly sized arrays, and index set again to zero,
+// jcodes should point to correctly sized arrays, and index set again to zero,
 // to get fill vertices and codes with the outline decomposition.
 struct ft_outline_decomposer
 {
